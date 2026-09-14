@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atalhos do Visual Studio Code</title>
+	<style>
+		:root { color-scheme: dark; --bg: #0d1117; --card: #161b22; --line: #30363d; --blue: #58a6ff; --text: #e6edf3; --muted: #8b949e; }
+		* { box-sizing: border-box; }
+		body { margin: 0; font-family: Arial, sans-serif; color: var(--text); background: linear-gradient(135deg, #0d1117, #172238); }
+		header { padding: 3rem 1.5rem 2rem; text-align: center; }
+		h1 { margin: 0 0 .7rem; color: var(--blue); font-size: clamp(2rem, 5vw, 3.2rem); }
+		header p { margin: 0; color: var(--muted); }
+		main { width: min(1100px, 92%); margin: 0 auto 3rem; }
+		.atalhos { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+		section { padding: 1.3rem; background: rgba(22, 27, 34, .94); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 8px 25px #0003; }
+		h2 { margin-top: 0; font-size: 1.2rem; color: #79c0ff; border-bottom: 1px solid var(--line); padding-bottom: .7rem; }
+		ul { list-style: none; padding: 0; margin: 0; }
+		li { display: flex; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-bottom: 1px solid #30363d80; }
+		li:last-child { border-bottom: 0; padding-bottom: 0; }
+		kbd { white-space: nowrap; padding: .25rem .5rem; color: #fff; background: #21262d; border: 1px solid #484f58; border-radius: 5px; box-shadow: inset 0 -2px #0006; font-family: monospace; font-size: .85rem; }
+		footer { padding: 1.5rem; text-align: center; color: var(--muted); font-size: .9rem; }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Atalhos do Visual Studio Code</h1>
+		<p>Consulte rapidamente as principais combinações de teclas.</p>
+	</header>
+
+	<main class="atalhos">
+		<section>
+			<h2>Geral</h2>
+			<ul>
+				<li><span>Paleta de comandos</span><kbd>Ctrl + Shift + P</kbd></li>
+				<li><span>Configurações</span><kbd>Ctrl + ,</kbd></li>
+				<li><span>Atalhos de teclado</span><kbd>Ctrl + K, Ctrl + S</kbd></li>
+				<li><span>Salvar arquivo</span><kbd>Ctrl + S</kbd></li>
+				<li><span>Fechar editor</span><kbd>Ctrl + W</kbd></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Edição</h2>
+			<ul>
+				<li><span>Desfazer / Refazer</span><kbd>Ctrl + Z / Ctrl + Y</kbd></li>
+				<li><span>Copiar / Recortar / Colar</span><kbd>Ctrl + C / X / V</kbd></li>
+				<li><span>Selecionar tudo</span><kbd>Ctrl + A</kbd></li>
+				<li><span>Formatar documento</span><kbd>Shift + Alt + F</kbd></li>
+				<li><span>Comentar linha</span><kbd>Ctrl + /</kbd></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Navegação</h2>
+			<ul>
+				<li><span>Ir para arquivo</span><kbd>Ctrl + P</kbd></li>
+				<li><span>Ir para linha</span><kbd>Ctrl + G</kbd></li>
+				<li><span>Ir para definição</span><kbd>F12</kbd></li>
+				<li><span>Alternar entre editores</span><kbd>Ctrl + Tab</kbd></li>
+				<li><span>Pesquisar no arquivo</span><kbd>Ctrl + F</kbd></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Seleção e linhas</h2>
+			<ul>
+				<li><span>Selecionar próxima ocorrência</span><kbd>Ctrl + D</kbd></li>
+				<li><span>Adicionar cursor acima/abaixo</span><kbd>Ctrl + Alt + ↑ / ↓</kbd></li>
+				<li><span>Duplicar linha</span><kbd>Shift + Alt + ↑ / ↓</kbd></li>
+				<li><span>Mover linha</span><kbd>Alt + ↑ / ↓</kbd></li>
+				<li><span>Excluir linha</span><kbd>Ctrl + Shift + K</kbd></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Visualização</h2>
+			<ul>
+				<li><span>Terminal integrado</span><kbd>Ctrl + `</kbd></li>
+				<li><span>Barra lateral</span><kbd>Ctrl + B</kbd></li>
+				<li><span>Explorador</span><kbd>Ctrl + Shift + E</kbd></li>
+				<li><span>Pesquisar</span><kbd>Ctrl + Shift + F</kbd></li>
+				<li><span>Modo Zen</span><kbd>Ctrl + K, Z</kbd></li>
+			</ul>
+		</section>
+	</main>
+	<footer>Os atalhos podem variar conforme o sistema operacional e suas configurações.</footer>
+</body>
+</html>
